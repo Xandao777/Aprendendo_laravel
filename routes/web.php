@@ -27,3 +27,7 @@ Route::get('/', function () {
 Route::get('/contato', function () {
     return view('contato');
 }); //isso e uma rota, ela faz o que o nome ja sugere ela cria uma rota.
+
+Route::get('/produtos', function () {
+    return view('produtos');
+}); //isso e uma rota, ela faz o que o nome ja sugere ela cria uma rota.
