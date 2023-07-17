@@ -16,6 +16,32 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                        <img src="/public/img/11cb54690eead4b11029b5e631aa8bed.png" alt="" srcset="">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Criar eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">cadastrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
         @yield('content')
         <footer>
             <p>
