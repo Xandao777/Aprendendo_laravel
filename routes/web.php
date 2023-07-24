@@ -22,13 +22,4 @@ Route::get('/contato', function () {
     return view('contato');
 }); //isso e uma rota, ela faz o que o nome ja sugere ela cria uma rota.
 
-Route::get('/produtos', function ($busca) {
 
-    $busca = request('search');
-
-    return view('produtos', ['busca' => $busca]);
-});
-
-Route::get('/produtos_testes/{id?}', function ($id = null) {
-    return view('produto', ['id' => $id]);
-});
