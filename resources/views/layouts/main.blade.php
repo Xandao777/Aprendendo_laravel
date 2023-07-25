@@ -50,7 +50,7 @@
         @yield('content')
         <footer>
             <p>
-                &copy;Xandão 2777
+                &copy;Xandão 777
             </p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
