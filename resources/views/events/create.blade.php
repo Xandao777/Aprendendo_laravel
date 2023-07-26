@@ -27,8 +27,9 @@
             <label for="title">Descrição:</label>
             <textarea name="description" id="description" cols="30" class="form-control" placeholder="O que vai acontecer no evento" rows="10"></textarea>
         </div>
-        <input type="submit" value="Confirmar" class="btn btn-primary">
+        <input type="submit" value="Confirmar" data-bs-toggle="modal" data-bs-target="#caixa-escondida" class="btn btn-primary">
     </form>
 </div>
+
 
 @endsection
