@@ -26,3 +26,13 @@ Route::get('/contato', function () {
 }); //isso e uma rota, ela faz o que o nome ja sugere ela cria uma rota.
 
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
